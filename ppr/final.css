@@ -62,10 +62,7 @@ aside {
 .btn-primary{
   background-color: #119292!important;/*!important change color*/
   border-color: #e3fdfcb2!important;
-  border-radius: 0px!important;
-  text-align: justify;
-  height: 30px;
-  width: auto;
+  border-radius: 0px;
 }
 
 .navbar-light{
@@ -99,7 +96,9 @@ aside {
   background-color: #119292!important;
 }
 
-
+#cao{
+  background-color: red;
+}
 
 }/*meDIa*/
 
