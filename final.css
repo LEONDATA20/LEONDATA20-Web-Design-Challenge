@@ -88,18 +88,30 @@ aside {
   text-align: left;
 }
 
-#hidden {
-  display: inline!important;
-}
-
-
-.box {
-  display: none;
-}
 
 
 
 }/*meDIa*/
+
+@media (max-width: 575.98px) {
+
+  #hidden {
+
+    display:block!important;
+    }
+    
+    #hidden2{
+      display:block!important;
+      margin-left: 30px;
+    }
+    
+    .box{
+      display:none;
+    }
+
+}
+
+
 
 main {
   background-color: white;
@@ -183,7 +195,7 @@ h3 {
 
 .container{
   background-color: white;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   margin-bottom: 40px;
 }
@@ -206,7 +218,10 @@ h3 {
 }
 
 #hidden {
-  display: none;
+  display:none;
+
 }
 
+#hidden2{
+  display:none;
 }

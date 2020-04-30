@@ -65,66 +65,75 @@
 
   <br>
 
-  <div class="container"> <!--container-fluid spanning the entire width of the viewport-->
-    <!--While containers can be nested, most layouts do not require a nested container.-->
-    <div class="row row-grid ">
-      <main class="col-md-8"> <!--class="container"-->
-        <!--<div class="row row-grid">-->  
-        <section class="posts ">
-          <h1>Summary: Latitude vs. X</h1>
+  <div class="box box-content">
+    <div class="container"> <!--container-fluid spanning the entire width of the viewport-->
+      <!--While containers can be nested, most layouts do not require a nested container.-->
+      <div class="row row-grid ">
+        <main class="col-md-8"> <!--class="container"-->
+          <!--<div class="row row-grid">-->  
+          <section class="posts ">
+            <h1>Summary: Latitude vs. X</h1>
+            <hr>
+            <div class="goushi">
+                <a target="_blank" href="data.html">
+                  <img id="temp" class="figure-img img-fluid rounded float-left" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+                </a>
+  
+                <article class="post">
+                  <p >
+                    The purpose of this project was to analysis how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                  </p>
+                  <p >
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.<span></span> Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides<span></span> the source data and visualizations created as part of the analysis, as well as explanations and descriptions<span></span> of any trends and correlations witnessed.
+                  </p>
+                </article>
+  
+            </div>
+          </section>
+        </main>
+  
+        <aside class=" col-md-4"> 
+            <h2>Visualizations</h2>
           <hr>
-          <div class="goushi">
-              <a target="_blank" href="data.html">
-                <img id="temp" class="figure-img img-fluid rounded float-left" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
-              </a>
-
-              <article class="post">
-                <p >
-                  The purpose of this project was to analysis how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                </p>
-                <p >
-                  After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.<span></span> Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides<span></span> the source data and visualizations created as part of the analysis, as well as explanations and descriptions<span></span> of any trends and correlations witnessed.
-                </p>
-              </article>
-
-          </div>
-        </section>
-      </main>
-
-      <aside class=" col-md-4"> 
-          <h2>Visualizations</h2>
-        <hr>
-          <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-6">
-                <a target="_blank" href="Max Temperature.html">
-                    <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Max Temperature">
-                    <figcaption class="figure-caption text-center">vs. Max Temperature</figcaption>
-                </a>
+            <div class="row">
+              <div class="col-xs-6 col-sm-3 col-md-6">
+                  <a target="_blank" href="Max Temperature.html">
+                      <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Max Temperature">
+                      <figcaption class="figure-caption text-center">vs. Max Temperature</figcaption>
+                  </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 col-md-6">
+                  <a target="_blank" href="Humidy.html">
+                      <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Humidity">
+                      <figcaption class="figure-caption text-center">vs. Humidity</figcaption>
+                  </a>
+              </div>
+              <br>
+              <div class="col-xs-6 col-sm-3 col-md-6">
+                  <a target="_blank" href="Cloudiness.html" >
+                      <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Cloudiness">
+                      <figcaption class="figure-caption text-center">vs. Cloudiness</figcaption>
+                  </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 col-md-6">
+                  <a target="_blank" href="Wind Speed.html">
+                      <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Wind Speed">
+                      <figcaption class="figure-caption text-center">vs. Wind Speed</figcaption>
+                  </a>
+              </div>
             </div>
-            <div class="col-xs-6 col-sm-3 col-md-6">
-                <a target="_blank" href="Humidy.html">
-                    <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Humidity">
-                    <figcaption class="figure-caption text-center">vs. Humidity</figcaption>
-                </a>
-            </div>
-            <br>
-            <div class="col-xs-6 col-sm-3 col-md-6">
-                <a target="_blank" href="Cloudiness.html" >
-                    <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Cloudiness">
-                    <figcaption class="figure-caption text-center">vs. Cloudiness</figcaption>
-                </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-6">
-                <a target="_blank" href="Wind Speed.html">
-                    <img class="figure-img img-fluid rounded mx-auto d-block" src="Resources/assets/images/Fig2.png" alt="vs. Wind Speed">
-                    <figcaption class="figure-caption text-center">vs. Wind Speed</figcaption>
-                </a>
-            </div>
-          </div>
-      </aside>
-    
+        </aside>
+      
+      </div>
     </div>
-</div>
+  </div>
+  
+  <div id="hidden2">
+    <hr>
+    <h1>Max Temperature</h1>
+      <p>Copy Right</p>
+      <p>Trilogy Education Services &#169; 2019 All right reserved</p>      </div>
+ </div>
   
     
 
